@@ -1,0 +1,9 @@
+<Context>
+  <!-- Because of Arch linux using MariaDB instead of MySQL, I need to use different driver -->
+  <!-- MariaDB is a drop in replacement of MySQL -->
+  <Resource name="jdbc/cs3200_hw4" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="cs3200_hw4" password="cs3200_hw4" driverClassName="org.mariadb.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/cs3200_hw4"/>
+
+</Context>

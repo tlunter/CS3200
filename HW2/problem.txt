@@ -1,0 +1,22 @@
+Consider an online web application that allows developers to collaborate to create various types of applications.
+
+They can create web, mobile, or desktop applications.
+Web applications can be accessed through a URL, have a name, the date it was created, price per access, and have a target browser.
+Mobile applications have a target mobile OS, a name, times it has been installed, and the date it was created.
+Desktop applications have a target OS, name, price per download, date it was created.
+
+A developer can work on several applications in various capacities or roles.
+On one application they might work on the user experience, on another they might be a project manager, on another they might be a business analyst, architect, database admin, back end developer, or a front end developer.
+They might have various roles for the same application.
+
+In general, applications consists of three distinct parts: views, controllers, and models.
+
+A view is used to display data in the model and can be composed of other views.
+A view can have several event handlers that are used to invoke scripts in the controller.
+
+A controller is composed of a set of scripts that execute when an event occurs in the view.
+Scripts can manipulate data in the model.
+The result of the script defines what the next view will be.
+
+A model consists of a set of name value pairs.
+A value can be a string, number, date, or set of name value pairs.
