@@ -23,7 +23,7 @@ public class MovieManager {
     String readAllMovies = "SELECT * FROM `movie`";
     String createMovie = "INSERT INTO `movie` (`id`,`title`,`posterImage`,`releaseDate`) VALUES (?,?,?,?)";
     String readMovie = "SELECT * FROM `movie` WHERE `id` = ?";
-    String updateMovie = "UPDATE `movie` WHERE `id` = ?, `title` = ?, `posterImage` = ?, releaseDate = ? WHERE `id` = ?";
+    String updateMovie = "UPDATE `movie` SET `id` = ?, `title` = ?, `posterImage` = ?, releaseDate = ? WHERE `id` = ?";
     String deleteMovie = "DELETE FROM `movie` WHERE `id` = ?";
 
     public MovieManager() {
