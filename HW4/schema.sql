@@ -14,10 +14,6 @@ CREATE TABLE `user` (
     PRIMARY KEY (`username`)
 );
 
-INSERT INTO `user` VALUES
-    ('tlunter','tlunter','Todd','Lunter','tlunter@gmail.com','1991-09-18'),
-    ('nihaody','duh','Dan','Nordness','daniel0524@gmail.com','1992-05-22');
-
 CREATE TABLE `movie` (
     id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(255) NOT NULL,
