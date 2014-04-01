@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4281061904">
+    <data-source source="LOCAL" name="NewPersistenceUnit" uuid="dbb8cb1c-1046-4244-87ef-844206070195">
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost/cs3200_hw5</jdbc-url>
+      <user-name>cs</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="CS3200 HW5" uuid="420f47a6-841e-47b5-846a-8c947b071a31">
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost/cs3200_hw5</jdbc-url>
+      <user-name>cs3200_hw5</user-name>
+      <user-password>dfc9dfd9df99df98df9adf9adff5dfc2dfdddf9f</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="cs3200_hw5" uuid="5c487660-a5eb-4e56-8e24-341ac2ee840d">
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost/cs3200_hw5</jdbc-url>
+      <user-name>cs3200_hw5</user-name>
+      <user-password>dfc9dfd9df99df98df9adf9adff5dfc2dfdddf9f</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
