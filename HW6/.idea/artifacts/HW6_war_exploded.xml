@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HW6:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/HW6_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HW6/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HW6" />
+          <element id="jpa-descriptors" facet="HW6/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="eclipselink" />
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
