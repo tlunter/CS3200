@@ -8,17 +8,22 @@ import java.util.List;
  * Created by tlunter on 4/4/14.
  */
 @Entity
+@Table(name = "tower")
 @XmlRootElement
 @XmlAccessorType(value=XmlAccessType.FIELD)
 public class Tower {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
+    @Column(name = "id")
     @XmlAttribute
     private Integer id;
+    @Column(name = "name")
     @XmlAttribute
     private String name;
+    @Column(name = "height")
     @XmlAttribute
     private Double height;
+    @Column(name = "sides")
     @XmlAttribute
     private Integer sides;
     @ManyToOne

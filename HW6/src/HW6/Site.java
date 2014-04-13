@@ -8,18 +8,23 @@ import java.util.List;
  * Created by tlunter on 4/4/14.
  */
 @Entity
+@Table(name = "site")
 @XmlRootElement
 @XmlAccessorType(value= XmlAccessType.FIELD)
 @NamedQuery(name="Site.findAllSites", query="SELECT s FROM Site s")
 public class Site {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
+    @Column(name = "id")
     @XmlAttribute
     private Integer id;
+    @Column(name = "name")
     @XmlAttribute
     private String name;
+    @Column(name = "latitude")
     @XmlAttribute
     private Double latitude;
+    @Column(name = "longitude")
     @XmlAttribute
     private Double longitude;
     @OneToMany(mappedBy="site")

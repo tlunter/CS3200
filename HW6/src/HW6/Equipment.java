@@ -7,19 +7,25 @@ import javax.xml.bind.annotation.*;
  * Created by tlunter on 4/4/14.
  */
 @Entity
+@Table(name = "equipment")
 @XmlRootElement
 @XmlAccessorType(value=XmlAccessType.FIELD)
 public class Equipment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
+    @Column(name = "id")
     @XmlAttribute
     private Integer id;
+    @Column(name = "name")
     @XmlAttribute
     private String name;
+    @Column(name = "brand")
     @XmlAttribute
     private String brand;
+    @Column(name = "description")
     @XmlAttribute
     private String description;
+    @Column(name = "price")
     @XmlAttribute
     private Double price;
     @ManyToOne

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3010012958">
+  <component name="DataSourceManagerImpl" format="xml" hash="1845559414">
     <data-source source="LOCAL" name="HW6" uuid="6f83ce6a-7d82-409b-a662-6f56dba2bf43">
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
