@@ -25,7 +25,7 @@ public class SiteDao {
         return site;
     }
 
-    public List<Site> getAllSites() {
+    public List<Site> findAllSites() {
         EntityManager em = factory.createEntityManager();
         em.getTransaction().begin();
 
@@ -73,7 +73,7 @@ public class SiteDao {
     public static void main(String[] args) {
         SiteDao dao = new SiteDao();
 
-        List<Site> sitesList = dao.getAllSites();
+        List<Site> sitesList = dao.findAllSites();
 
         Sites sites = new Sites(sitesList);
 
